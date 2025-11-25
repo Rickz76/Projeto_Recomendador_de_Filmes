@@ -1,0 +1,128 @@
+[
+    {
+        "id": 1,
+        "nome": "Matrix",
+        "genero": "Ficção Científica",
+        "imagem": "css/imagens/filmes/matrix1.webp",
+        "sinopse": "Thomas Anderson é um jovem programador que começa a perceber que a realidade ao seu redor pode não ser o que parece. Em busca da verdade, ele se envolve com forças misteriosas que desafiam sua percepção do mundo."
+    },
+    {
+        "id": 2,
+        "nome": "Missão: Impossível - O Acerto Final",
+        "genero": "Ação",
+        "imagem": "css/imagens/filmes/missao_impossivel_o_acerto_final.webp",
+        "sinopse": "Após escapar de um acidente de trem, Ethan descobre que a Entidade está escondida em um submarino russo, enquanto um inimigo do passado retorna."
+    },
+    {
+        "id": 3,
+        "nome": "John Wick: De Volta ao Jogo",
+        "genero": "Ação",
+        "imagem": "css/imagens/filmes/john_wick1.webp",
+        "sinopse": "Após a morte de sua esposa, John Wick retorna ao submundo do crime em busca de vingança contra criminosos que destruíram seu último vínculo emocional."
+    },
+    {
+        "id": 4,
+        "nome": "Oppenheimer",
+        "genero": "Drama",
+        "imagem": "css/imagens/filmes/oppenheimer.webp",
+        "sinopse": "A história de J. Robert Oppenheimer, o físico responsável pela criação da bomba atômica, e os dilemas científicos, políticos e éticos que enfrentou."
+    },
+    {
+        "id": 5,
+        "nome": "Homem-Aranha: Sem Volta para Casa",
+        "genero": "Ação",
+        "imagem": "css/imagens/filmes/homem_aranha_sem_volta.webp",
+        "sinopse": "Peter Parker tem sua identidade revelada e, ao pedir ajuda ao Doutor Estranho, acaba abrindo portas para visitantes de outros universos."
+    },
+    {
+        "id": 6,
+        "nome": "Interestelar",
+        "genero": "Ficção Científica",
+        "imagem": "css/imagens/filmes/interestelar.webp",
+        "sinopse": "Com a Terra se tornando inabitável, um grupo de astronautas viaja por um buraco de minhoca em busca de um novo lar para a humanidade."
+    },
+    {
+        "id": 7,
+        "nome": "Harry Potter e a Pedra Filosofal",
+        "genero": "Fantasia",
+        "imagem": "css/imagens/filmes/harry_potter1.webp",
+        "sinopse": "Harry descobre que é um bruxo e inicia sua jornada em Hogwarts, onde começa a desvendar mistérios sobre seu passado."
+    },
+    {
+        "id": 8,
+        "nome": "Vingadores: Guerra Infinita",
+        "genero": "Ação",
+        "imagem": "css/imagens/filmes/vingadores_guerra_infinita.webp",
+        "sinopse": "Os Vingadores lutam para impedir Thanos de reunir todas as Joias do Infinito e eliminar metade da vida no universo."
+    },
+    {
+        "id": 9,
+        "nome": "Invocação do Mal",
+        "genero": "Terror",
+        "imagem": "css/imagens/filmes/invocacao_do_mal1.webp",
+        "sinopse": "Ed e Lorraine Warren investigam uma presença demoníaca que aterroriza uma família em sua casa de fazenda."
+    },
+    {
+        "id": 10,
+        "nome": "A Freira",
+        "genero": "Terror",
+        "imagem": "css/imagens/filmes/a_freira.webp",
+        "sinopse": "Uma noviça e um padre são enviados pelo Vaticano para investigar atividades demoníacas em um convento isolado."
+    },
+    {
+        "id": 11,
+        "nome": "Hereditário",
+        "genero": "Terror",
+        "imagem": "css/imagens/filmes/hereditario.webp",
+        "sinopse": "Após a morte da matriarca, segredos sombrios emergem enquanto uma presença demoníaca ameaça a família."
+    },
+    {
+        "id": 12,
+        "nome": "It: A Coisa",
+        "genero": "Terror",
+        "imagem": "css/imagens/filmes/it_a_coisa.webp",
+        "sinopse": "Um grupo de crianças enfrenta a entidade Pennywise, que assume a forma de seus maiores medos."
+    },
+    {
+        "id": 13,
+        "nome": "O Massacre da Serra Elétrica",
+        "genero": "Terror",
+        "imagem": "css/imagens/filmes/massacre_serra_eletrica.webp",
+        "sinopse": "Um grupo de jovens é perseguido por uma família assassina, incluindo o brutal Leatherface."
+    },
+    {
+        "id": 14,
+        "nome": "Como Eu Era Antes de Você",
+        "genero": "Romance",
+        "imagem": "css/imagens/filmes/como_eu_era_ante.webp",
+        "sinopse": "Louisa passa a cuidar de Will, um jovem tetraplégico, e um vínculo inesperado transforma suas vidas."
+    },
+    {
+        "id": 15,
+        "nome": "A Culpa é das Estrelas",
+        "genero": "Romance",
+        "imagem": "css/imagens/filmes/culpa_das_estrelas.webp",
+        "sinopse": "Dois adolescentes com câncer se apaixonam e enfrentam juntos desafios emocionais e físicos."
+    },
+    {
+        "id": 16,
+        "nome": "Diário de uma Paixão",
+        "genero": "Romance",
+        "imagem": "css/imagens/filmes/diario_de_uma_paixao.webp",
+        "sinopse": "Allie e Noah vivem um amor intenso que é marcado por separações, reencontros e lembranças inesquecíveis."
+    },
+    {
+        "id": 17,
+        "nome": "La La Land",
+        "genero": "Romance",
+        "imagem": "css/imagens/filmes/la_la_land.webp",
+        "sinopse": "Uma atriz e um pianista tentam equilibrar seus sonhos e relacionamento em Los Angeles."
+    },
+    {
+        "id": 18,
+        "nome": "Orgulho e Preconceito",
+        "genero": "Romance",
+        "imagem": "css/imagens/filmes/orgulho_preconceito.webp",
+        "sinopse": "Elizabeth Bennet enfrenta seus julgamentos precipitados ao conhecer o misterioso Sr. Darcy."
+    }
+]

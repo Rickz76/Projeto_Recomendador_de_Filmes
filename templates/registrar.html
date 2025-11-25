@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Criar conta</title>
+    <link rel="stylesheet" href="/static/css/login.css">
+</head>
+<body>
+
+    <div id="form_fundo">
+        <h1>Criar conta</h1>
+
+        <div id="form_frente">
+            <form action="/registrar" method="POST">
+
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome_input" required placeholder="Digite seu nome">
+
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha_input" required placeholder="Digite sua senha">
+
+                <button type="submit" id="btn_login">
+                    <span></span><span></span><span></span><span></span>
+                    Registrar
+                </button>
+
+                <p>Já tem conta? <a href="/">Entrar</a></p>
+            </form>
+
+            {% set mensagem = get_flashed_messages() %}
+            {% if mensagem %}
+            <div class="flash_alert">
+                {{ mensagem[0] }}
+            </div>
+            {% endif %}
+        </div>
+    </div>
+
+</body>
+</html>

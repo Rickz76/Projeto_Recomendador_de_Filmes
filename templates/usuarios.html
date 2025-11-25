@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+    <header>
+        <h1>Olá, {{ usuario.nome }}!</h1>
+        <nav>
+            <a href="/explorar/{{ usuario.id }}">Explorar filmes</a>
+            <a href="/logout" class="logout">Sair</a>
+        </nav>
+    </header>
+
+    <h2>Recomendações personalizadas</h2>
+
+    {% if recomendados and recomendados|length > 0 %}
+        <div class="filme-container">
+            {% for filme in recomendados %}
+            <div class="filme">
+                <img src="{{ url_for('static', filename=filme.imagem) }}" alt="Poster">
+                <h3>{{ filme.nome }}</h3>
+                <p class="genero">{{ filme.genero }}</p>
+            </div>
+            {% endfor %}
+        </div>
+    {% else %}
+        <p>🎥 Você ainda não avaliou filmes suficientes. Vá em "Explorar filmes" para começar!</p>
+    {% endif %}
+
+</body>
+</html>

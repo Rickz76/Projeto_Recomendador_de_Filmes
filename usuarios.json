@@ -1,0 +1,79 @@
+[
+    {
+        "id": 1,
+        "nome": "Henrique",
+        "senha": "1234",
+        "avaliacoes": [
+            {
+                "filme_id": 5,
+                "nota": 4
+            },
+            {
+                "filme_id": 17,
+                "nota": 2
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "nome": "Maria",
+        "senha": "abcd",
+        "avaliacoes": [
+            {
+                "filme_id": 1,
+                "nota": 5
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "nome": "Batata99",
+        "senha": "pirarucu",
+        "avaliacoes": [
+            {
+                "filme_id": 2,
+                "nota": 5
+            },
+            {
+                "filme_id": 6,
+                "nota": 5
+            },
+            {
+                "filme_id": 3,
+                "nota": 5
+            },
+            {
+                "filme_id": 9,
+                "nota": 5
+            },
+            {
+                "filme_id": 12,
+                "nota": 5
+            },
+            {
+                "filme_id": 11,
+                "nota": 3
+            },
+            {
+                "filme_id": 1,
+                "nota": 5
+            },
+            {
+                "filme_id": 7,
+                "nota": 3
+            },
+            {
+                "filme_id": 14,
+                "nota": 5
+            },
+            {
+                "filme_id": 17,
+                "nota": 4
+            },
+            {
+                "filme_id": 16,
+                "nota": 5
+            }
+        ]
+    }
+]

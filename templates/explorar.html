@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Explorar Filmes</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+<header>
+    <h1>Explorar filmes</h1>
+    <nav>
+        <a href="/dashboard/{{ usuario.id }}">Recomendações</a>
+        <a href="/logout" class="logout">Sair</a>
+    </nav>
+</header>
+
+<h2>Catálogo completo</h2>
+
+<div class="filme-container">
+    {% for filme in filmes %}
+    <div class="filme">
+        <img src="{{ url_for('static', filename=filme.imagem) }}" 
+             onclick="toggleDetalhes({{ filme.id }})">
+
+        <h3>{{ filme.nome }}</h3>
+        <p class="genero">{{ filme.genero }}</p>
+
+        <div class="detalhes" id="detalhes-{{ filme.id }}">
+            <p>{{ filme.sinopse }}</p>
+
+            <form method="POST" action="/avaliar">
+                <input type="hidden" name="usuario_id" value="{{ usuario.id }}">
+                <input type="hidden" name="filme_id" value="{{ filme.id }}">
+
+                <label>Avalie (1-5):</label>
+                <input type="number" class="avaliacao-input" name="nota" min="1" max="5" required>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+
+<script>
+function toggleDetalhes(id) {
+    const div = document.getElementById("detalhes-" + id);
+    const aberto = div.style.display === "block";
+
+    // Fecha todos os outros
+    document.querySelectorAll(".detalhes").forEach(d => d.style.display = "none");
+
+    // Abre só o clicado
+    div.style.display = aberto ? "none" : "block";
+}
+</script>
+
+</body>
+</html>
