@@ -1,9 +1,9 @@
 # Projeto_Recomendador_de_Filmes
 Sistema de recomendação de filmes com interface de usuário e login, usando inteligência artificial simples.
 
-# RecoFlix
+# CINEMAFLIX
 
-RecoFlix é um sistema de recomendação de filmes que utiliza inteligência artificial básica para sugerir filmes aos usuários. Cada usuário pode criar sua conta e acessar uma interface personalizada.
+CINEMAFLIX é um sistema de recomendação de filmes que utiliza inteligência artificial básica para sugerir filmes aos usuários. Cada usuário pode criar sua conta e acessar uma interface personalizada.
 
 ## Funcionalidades
 
